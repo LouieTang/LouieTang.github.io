@@ -5,10 +5,19 @@ header{
     align-items: center;
 }
 
+a#CurrentPage{
+    text-decoration: underline;
+}
+
 a{
     text-decoration: none;
     color: black;
 }
+
+nav{
+    padding-right:10px;
+}
+
 
 /* *{
     border: 1px solid black;
