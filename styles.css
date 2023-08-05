@@ -1,8 +1,15 @@
-img {
-    width: 100px;
-    border-radius: 50px;
+header{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
-div {
-    border: 2px solid red;
+a{
+    text-decoration: none;
+    color: black;
 }
+
+/* *{
+    border: 1px solid black;
+} */
