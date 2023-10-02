@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
-    <title>Contact</title>
+    <title>Contact Me</title>
 </head>
 <body>
+    <!-- Page Updated on October 1st 2023 -->
     <header>
         <h1><a href="./index.html">Louie Tang</a></h1>
         <nav>
@@ -15,28 +16,28 @@
             <a href="./projects.html">Projects</a> |
             <a href="./career.html">Career</a> |
             <a href="./aboutme.html">About Me</a> |
-            <a href="./contact.html" id="CurrentPage">Contact</a>
+            <a href="./contact.html" id="CurrentPage">Contact Me</a>
         </nav>
     </header>
     <section>
         <div>
-            <h1>Contact Me</h1>
+            <h1>Contact Me <span>(Form is currently unavailable, please reach me via email/socials)</span></h1>
         </div>
         <form autocomplete="on">
-            <label for="name">Name</label><br>
+            <label for="name">Name<span>*</span></label><br>
             <input type="text" id="name" name="name" placeholder="Name" required><br>
             <label for="pnumber">Phone Number</label><br>
             <input type="tel" id="pnumber" name="pnumber" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Phone Number (optional)"><br>
-            <label for="email">Email</label><br>
+            <label for="email">Email<span>*</span></label><br>
             <input type="email" id="email" name="email" placeholder="Email Address" required><br>
-            <label for="message">Inquiry</label><br>
+            <label for="message">Inquiries/Questions/Comments<span>*</span></label><br>
             <textarea id="email" name="message" rows="10" cols="10" required></textarea><br>
             <br>
             <button type="submit" value="Submit">Submit</button>
         </form>
     </section>
     <footer>
-
+        <h5>Copyright &copy; 2023 Louie Tang. All Rights Reserved</h5>
     </footer>
 </body>
 </html>
