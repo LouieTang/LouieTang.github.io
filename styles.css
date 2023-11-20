@@ -1,13 +1,173 @@
 /* Global styles */
-
-*{
+* {
     /* border: solid 1px red; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     background-color: #fbfcfa;
     color: #3d3d46;
-    
-
 }
 
+body {
+    font-family:sans-serif;
+}
+
+nav h1 {
+    font-size: 2.5rem;
+    white-space: nowrap;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+    /* border: 1px solid black; */
+    margin: 0 0.2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+    color: green;
+}
+
+a:active {
+    text-decoration: none;
+    color: gold;
+}
+
+footer h5 {
+    /* border: 1px solid black; */
+    text-align: center;
+}
+footer {
+    /* border: 1px solid gold; */
+    padding: 2rem;
+}
+
+/* index.html */
+#index-section {
+    display: grid;
+    grid-template-areas:
+        "in in in in in in in in in"
+        "am am am am am am am sc sc"
+        "ts ts ts ts ts ts ts sc sc";
+    gap: 1rem;
+    margin: 2rem;
+}
+
+.intro {
+    grid-area: in;
+}
+
+.about-me {
+    grid-area: am;
+}
+
+.socials {
+    grid-area: sc;
+    /* padding: 25% 0; */
+    margin: 10px 30px;
+}
+
+.technical-skills {
+    grid-area: ts;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.icon {
+    height: 125px;
+}
+
+.flexrow {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tech-skills-head {
+    margin: 5px 0px;
+}
+
+/* projects.html */
+.project-div {
+    display: grid;
+    grid-template-columns: 7fr 2fr;
+    gap: 1rem;
+}
+
+.project-info {
+    padding: 2rem;
+}
+
+.project-date {
+    text-align: right;
+    padding: 2rem;
+}
+
+.project-section-header {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+/* career.html */
+.career-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.career-div {
+    margin: 2rem;
+}
+
+/* aboutme.html */
+.about-me-header {
+    text-align: center;
+}
+
+#hobbies-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+#interests-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.about-me-div-content {
+    padding: 1.5rem;
+}
+
+/* contact.html */
+.contact-form {
+    display: flex;
+    justify-content: center;
+}
+
+/* unavailable.html */
+.unavailable-section {
+    padding: 2rem;
+}
+
+
+/* 
 header{
     display:flex;
     flex-flow: row wrap;
@@ -46,67 +206,21 @@ nav{
 }
 .flex-3{
     flex-grow: 3;
-}
+} */
 
 /* Index specific */
 
-#about-socials{
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;
-    align-items: baseline;
-    align-content: flex-start;
-}
 
-#img-overlay{
-    display: inline-block;
-    width: 100%;
-    /* background-color: black; */
-}
-
-.float-display{
-    float:left;
-    margin: 10px;
-    padding: 10px;
-}
-
-.icon{
-    height: 125px;
-}
-.flexrow{
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-
-.socials{
-    margin: 10px 30px;
-}
-
-.tech-skills-head{
-    margin: 5px 0px;
-}
 
 
 /* used in projects */
-.tech-skills{
+/* .tech-skills{
     margin: 0px;
-}
+} */
 
 /* Project Specific */
-#project-header{
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-}
+/* 
 
-
-/* div>button>a:hover{
-    background-color: #3d3d46;
-    color: #fbfcfa;
-} */
 
 #project-header h1{
     margin-bottom:-3px;
@@ -132,10 +246,10 @@ nav{
 
 .proj-head{
     margin-bottom: 10px;
-}
+}*/
 
 /* Career Specific */
-#career-info{
+/* #career-info{
     display: flex;
     flex-flow: row nowrap;
     align-items: baseline;
@@ -153,12 +267,12 @@ nav{
 
 #career-info>.flex-1>h4, #career-info>.flex-1>h5, #career-info>.flex-1>p{
     margin: 2px 5px;
-}
+} */
 
 
 /* About Me Specific */
 
-#hobbies-div, #interests-div{
+/* #hobbies-div, #interests-div{
     display: flex;
     flex-flow: row nowrap;
     align-items: baseline;
@@ -171,24 +285,7 @@ nav{
 }
 #hobbies-div>.flex-1, #interests-div>.flex-1{
     margin: 0px 5px;
-}
+} */
 
 /* Contact specific */
 
-form{
-    display: flex;
-    flex-flow: column wrap;
-}
-
-form button{
-    width: 100px;
-    height: 40px;
-    margin: auto;
-}
-
-form>label>span{
-    color: red;
-}
-h1>span{
-    font-size: small;
-}
