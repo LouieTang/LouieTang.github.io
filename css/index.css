@@ -1,0 +1,55 @@
+/* index.html */
+#index-section {
+    display: grid;
+    grid-template-areas:
+        "in in in in in in in in in"
+        "am am am am am am am sc sc"
+        "ts ts ts ts ts ts ts sc sc";
+    gap: 1rem;
+    margin: 2rem;
+}
+
+.intro {
+    grid-area: in;
+}
+
+.about-me {
+    grid-area: am;
+}
+
+.socials {
+    grid-area: sc;
+    margin: 10px 30px;
+}
+
+.technical-skills {
+    grid-area: ts;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.icon {
+    height: 125px;
+}
+
+.flexrow {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tech-skills-head {
+    margin: 5px 0px;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+.offscreen {
+    position: absolute;
+    left: -10000px;
+}

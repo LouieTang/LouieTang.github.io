@@ -1,0 +1,18 @@
+/* aboutme.html */
+.about-me-header {
+    text-align: center;
+}
+
+#hobbies-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+#interests-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.about-me-div-content {
+    padding: 1.5rem;
+}

@@ -1,0 +1,21 @@
+/* projects.html */
+.project-div {
+    display: grid;
+    grid-template-columns: 7fr 2fr;
+    gap: 1rem;
+}
+
+.project-info {
+    padding: 2rem;
+}
+
+.project-date {
+    text-align: right;
+    padding: 2rem;
+}
+
+.project-section-header {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
