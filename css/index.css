@@ -45,11 +45,3 @@ p {
     margin: 5px 0px;
 }
 
-.no-wrap {
-    white-space: nowrap;
-}
-
-.offscreen {
-    position: absolute;
-    left: -10000px;
-}
