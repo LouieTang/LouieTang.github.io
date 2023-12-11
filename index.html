@@ -6,40 +6,61 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/styles.css">
         <link rel="stylesheet" href="./css/index.css">
-        <title>Louie Tang - Computer Engineering Student</title>
+        <title>Louie Tang - Computer Engineering</title>
     </head>
     <body>
-        <header>
-            <nav>
-                <h1>
-                    <a class="nav-logo" href="./index.html">Louie Tang</a>
+        <header class="header">
+            <nav class="nav">
+                <h1 class="nav__logo">
+                    <a class="no-decoration" href="./index.html">Louie Tang</a>
                 </h1>
-                <ul>
-                    <li><a class="nav-link" href="./index.html" id="CurrentPage">Home</a></li>
-                    <li><a class="nav-link" href="./projects.html">Projects</a></li>
-                    <li><a class="nav-link" href="./career.html">Career</a></li>
-                    <li><a class="nav-link" href="./knowledge.html">My Knowledge</a></li>
-                    <li><a class="nav-link" href="./aboutme.html">About Me</a></li>
-                    <li><a class="nav-link" href="./contact.html">Contact Me</a></li>
+                <ul class="nav__ul">
+                    <li><a class="nav__li no-decoration" href="./index.html">Home</a></li>
+                    <li><a class="nav__li no-decoration" href="./projects.html">Projects</a></li>
+                    <li><a class="nav__li no-decoration" href="./career.html">Career</a></li>
+                    <li><a class="nav__li no-decoration" href="./knowledge.html">My Knowledge</a></li>
+                    <li><a class="nav__li no-decoration" href="./aboutme.html">About Me</a></li>
+                    <li><a class="nav__li no-decoration" href="./contact.html">Contact Me</a></li>
                 </ul>
                 
             </nav>
         </header>
-        <section id="index-section">
+        <section id="index-section" class="section">
             <div class="intro">
-                <h1>Hi, I'm Louie, a 3rd year Computer Engineering Student <br>based out of Vancouver, British Columbia!</h1>
+                <h1 class="intro__text">Greetings! I'm Louie Tang, a 3rd year Computer Engineering Student Based Out of Vancouver, British Columbia!</h1>
             </div>
-            <div class="about-me">
-                <h1 class="heading">About Me</h1>
-                <p>I'm Louie, an aspiring computer engineer currently attending The University of British Columbia. Here, on my webpage, you'll find what I have been up to, the things I have done, and the things I would like to do in the future. When I am not studying or coding, you can find me helping family/friends/clients, or on the field throwing a frisbee around. Please check me out on my socials, thank you for visiting my webpage.</p>
-            </div>
-            <div class="technical-skills">
-                <h4 class="tech-skills-head sub-heading">Technical Skills</h4>
-                <p class="tech-skills">Languages: Java, C++, Python, HTML/CSS/JavaScript, Bash, SystemVerilog, ARM64, XML</p>
-                <p class="tech-skills">Frameworks: CircuitPython, PyTorch, Express, Google Maps API</p>
-                <p class="tech-skills">Libraries: Node.js</p>
-                <p class="tech-skills">Tools: Git, Make, Gradle, GDB</p>
-            </div>
+            <section class="bio">
+                <section class="bio-group">
+                    <div>
+                        <h3>About Me</h3>
+                        <p>I'm an aspiring Computer Engineer currently attending The University of British Columbia. I am also a mentor, private tutor, and an ultimate frisbee player. Whether I'm studying, coding, or creating, my belief in putting in my best effort is at the core of everything I do</p>
+                    </div>
+                    <div>
+                        <h3>Experience</h3>
+                        <p>In my two years of programming experience, I've had the privilege of creating multiple projects which solve real-life challenges or showcase my growing skill set. My commitment to continuous learning hashas been a driving force behind my rapid progress in the world of programming.</p>
+                    </div>
+                </section>
+                <section class="bio-group">
+                    <div>
+                        <h3>Education</h3>
+                        <p>I'm on an exciting journey pursuing my Bachelor's Degree in Applied Sciences at The University of British Columbia. Currently in my third year, my focus is on computer engineering, where I am learning software, hardware, and everything in between.</p>
+                    </div>
+                    <div>
+                        <h3>Technical Skills</h3>
+                        <p>Proficient in Java, JavaScript, C++, C, and Python, I leverage strong problem-solving and analytical abilities in designing and integrating mobile/web applications. My approach involves following the software development lifecycle, a perspective that shapes the projects highlighted in the next section.</p>
+                    </div>
+                </section>
+                <section class="bio-group">
+                    <div>
+                        <h3>Projects</h3>
+                        <p>Some notable <a class="accent" href="./projects.html">projects</a> I've worked on include a Grocery Manager mobile application, and a Flatball Stat Tracker. Both projects are full-stack applications, one being a group project for my course, and the other being a passion project. These experiences have deepened my understanding of the software design lifecycle, full-stack project development, project development approaches (agile/scrum), and much more.</p>
+                    </div>
+                    <div>
+                        <h3>Future Goals</h3>
+                        <p>My goal for the future is to evolve into a versatile software engineer specializing in full-stack development and software lifecycles. Eager to embark on new challenges, I'm actively seeking internship opportunities where I can contribute my skills to projects on the front-end, back-end.</p>
+                     </div>
+                </section>
+            </section>
             <aside class="socials">
                 <h1 class="center-text sub-heading">Socials</h1>
                 <div class="flexrow">
@@ -49,9 +70,9 @@
                 <h5 class="center-text">For Email Inquiries: Louietang03@gmail.com</h5>
             </aside>
         </section>
-        <footer>
-            <h5>Version 2.0.2. Page Updated on December 10th 2023.</h5>
-            <h5>Copyright &copy; 2023 Louie Tang. All Rights Reserved.</h5>
+        <footer class="footer">
+            <h5 class="center-text">Version 2.0.3. Updated & Published on December 11th 2023.</h5>
+            <h5 class="center-text">Copyright &copy; 2023 Louie Tang. All Rights Reserved.</h5>
         </footer>
     </body>
 </html>

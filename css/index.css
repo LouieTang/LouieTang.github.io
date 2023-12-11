@@ -3,27 +3,38 @@
     display: grid;
     grid-template-areas:
         "in in in in in in in in in"
-        "am am am am am am am sc sc"
-        "ts ts ts ts ts ts ts sc sc";
+        "bio bio bio bio bio bio bio sc sc";
     gap: 1rem;
     margin: 2rem;
 }
 
 .intro {
     grid-area: in;
-}
+    background-image: url('../images/1266.JPEG');
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image within the container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-color: black; /* Fallback background color in case the image doesn't load */
+    color: white; /* Text color for better readability on the dark background */
+    padding: 20px; /* Add padding to the content inside .intro to make it readable */
+    text-align: center; /* Center-align text content */
 
-.about-me {
-    grid-area: am;
+    display: flex;
+    height: 100vh;
+} 
+
+.bio {
+    grid-area: bio;
 }
 
 .socials {
     grid-area: sc;
     margin: 10px 30px;
-}
-
-.technical-skills {
-    grid-area: ts;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
 }
 
 p {
@@ -45,3 +56,27 @@ p {
     margin: 5px 0px;
 }
 
+.intro__text{
+    background-color: transparent;
+    /* color: #2c3e50; */
+    text-align: left;
+    font-size: 2rem;
+    margin: 2rem;
+    max-width: 50%;
+}
+
+.bio-group{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.bio-group div{
+    border: 1px black solid;
+    border-radius: 2rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
