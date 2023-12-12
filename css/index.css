@@ -37,6 +37,11 @@
 
 .bio {
     grid-area: bio;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 1.5rem;
+    margin-top: 2rem;
 }
 
 .socials {
@@ -82,14 +87,7 @@ p {
     max-width: 50%;
 }
 
-.bio-group{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.5rem;
-    margin-top: 1.5rem;
-}
-
-.bio-group div{
+.bio div{
     border: 1px var(--text-color) solid;
     border-radius: 2rem;
     padding: 1.5rem;
