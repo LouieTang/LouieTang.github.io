@@ -1,0 +1,88 @@
+/* || RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--text-color);
+    background-color: var(--clr-background-900);
+}
+
+button {
+    font: inherit;
+    text-decoration: none;
+    border: none;
+}
+
+input {
+    font: inherit;
+    text-decoration: none;
+    border: var(--clr-primary-400) solid 1px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--clr-primary-400);
+}
+
+hr {
+    border: 0.5px solid var(--clr-primary-400);
+}
+
+li {
+    list-style: none;
+}
+
+/* GENERAL STYLES */
+
+html{
+    font-family: sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: center;
+}
+
+#app-view {
+    width: 80%;
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1;
+    border: 1px solid var(--clr-primary-400);
+}
+
+#app-menu {
+    border-bottom: 1px solid var(--clr-primary-400);
+}
+
+#page-view {
+    display: flex;
+    flex: 1;
+}
+
+.content {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* || VARIABLES */
+
+:root {
+    /* COLOURS */
+    --clr-primary-400: hsla(242, 100%, 72%, 1);
+
+    --clr-secondary-400: hsla(171, 92%, 40%, 1);
+
+    --clr-accent-300: hsla(171, 100%, 68%, 1);
+
+    --clr-neutral-700: hsla(215, 25%, 29%, 1);
+    
+    --clr-background-900: hsla(214, 26%, 17%, 1);
+
+}
