@@ -75,14 +75,16 @@ body {
 
 :root {
     /* COLOURS */
-    --clr-primary-400: hsla(242, 100%, 72%, 1);
+    --clr-primary-900: hsla(300, 100%, 5%, 1);
 
-    --clr-secondary-400: hsla(171, 92%, 40%, 1);
+    --clr-primary-400: hsla(266, 62%, 18%, 1);
 
-    --clr-accent-300: hsla(171, 100%, 68%, 1);
+    --clr-secondary-700: hsla(289, 36%, 26%, 1);
 
-    --clr-neutral-700: hsla(215, 25%, 29%, 1);
+    --clr-secondary-400: hsla(328, 25%, 42%, 1);
+
+    --clr-neutral-400: hsla(5, 41%, 79%, 1);
     
-    --clr-background-900: hsla(214, 26%, 17%, 1);
+    --clr-background-100: hsla(21, 81%, 92%, 1);
 
 }
