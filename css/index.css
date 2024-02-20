@@ -38,8 +38,7 @@
 .bio {
     grid-area: bio;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto auto;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     gap: 1.5rem;
     margin-top: 2rem;
 }
@@ -94,4 +93,21 @@ p {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .intro {
+        background-image: none;
+    }
+    .intro__text{
+        max-width: 100%;
+    }
+    .bio {
+        grid-template-columns: 1fr;
+    }
+    .socials {
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
 }
