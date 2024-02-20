@@ -75,16 +75,23 @@ body {
 
 :root {
     /* COLOURS */
-    --clr-primary-900: hsla(300, 100%, 5%, 1);
+    --clr-primary-900: hsla(300, 100%, 5%, 1); /* #190019 */
 
-    --clr-primary-400: hsla(266, 62%, 18%, 1);
+    --clr-primary-400: hsla(266, 62%, 18%, 1); /* #2B124C */
 
-    --clr-secondary-700: hsla(289, 36%, 26%, 1);
+    --clr-secondary-700: hsla(289, 36%, 26%, 1); /* #522B5B */
 
-    --clr-secondary-400: hsla(328, 25%, 42%, 1);
+    --clr-secondary-400: hsla(328, 25%, 42%, 1); /* #854F6C */
 
-    --clr-neutral-400: hsla(5, 41%, 79%, 1);
+    --clr-neutral-400: hsla(5, 41%, 79%, 1); /* #DFB6B2 */
     
-    --clr-background-100: hsla(21, 81%, 92%, 1);
+    --clr-background-100: hsla(21, 81%, 92%, 1); /* #FBE4D8 */
 
+}
+
+.GM {
+    background-image: url(./images/grocery.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: var(--clr-primary-400) solid 1px;
 }
