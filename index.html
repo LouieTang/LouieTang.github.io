@@ -1,72 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./css/styles.css">
-        <link rel="stylesheet" href="./css/index.css">
-        <title>Louie Tang - Computer Engineering</title>
-    </head>
-    <body>
-        <header class="header">
-            <nav class="nav">
-                <h1 class="nav__logo">
-                    <a class="no-decoration" href="./index.html">Louie Tang</a>
-                </h1>
-                <ul class="nav__ul">
-                    <li><a class="nav__li no-decoration" href="./index.html">Home</a></li>
-                    <li><a class="nav__li no-decoration" href="./projects.html">Projects</a></li>
-                    <li><a class="nav__li no-decoration" href="./career.html">Career</a></li>
-                    <li><a class="nav__li no-decoration" href="./knowledge.html">My Knowledge</a></li>
-                    <li><a class="nav__li no-decoration" href="./aboutme.html">About Me</a></li>
-                    <li><a class="nav__li no-decoration" href="./contact.html">Contact Me</a></li>
-                </ul>
-                
-            </nav>
-        </header>
-        <section id="index-section" class="section">
-            <div class="intro">
-                <h1 class="intro__text">Greetings! I'm Louie Tang, a 3rd year Computer Engineering Student Based Out of Vancouver, British Columbia!</h1>
-                <div class="socials">
-                    <h1 class="center-text sub-heading">Socials</h1>
-                    <div class="flexrow">
-                        <a href="https://www.linkedin.com/in/louie-tang/" target="_blank"><img class="icon" src="./images/LI-In-Bug.png" alt="https://www.linkedin.com/in/louie-tang/"></a>
-                        <a href="https://github.com/LouieTang" target="_blank" ><img class="icon" src="./images/github-mark.png" alt="https://github.com/LouieTang"></a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Louie Tang - Computer Engineer</title>
+</head>
+<body>
+    <div id="page-view">
+        <nav>
+            <ul class="nav__ul">
+                <li><a href="#">Louie Tang</a></li>
+                <div class="nav__ul-right">
+                    <li><a href="#bento-about">About Me</a></li>
+                    <li><a href="#bento-career">Career</li>
+                    <li><a href="#bento-projects">Projects</li>
+                    <li><a href="#bento-contact">Contact</a></li>
+                </div>
+            </ul>
+        </nav>
+        <div id="content-view">
+            <div id="bento-grid">
+                <div id="bento-about">
+                    <div class="bento-about-me bento">
+                        <h1>About Me</h1>
+                        <p>Hi, I'm Louie Tang. I'm a computer engineer with a passion for software development. I have experience in web development, mobile development, and embedded systems. I'm always looking for new projects to work on and new technologies to learn.</p>
                     </div>
-                    <h5 class="center-text">For Email Inquiries: Louietang03@gmail.com</h5>
+                    <div class="bento-about-me bento bento-hidden">
+                        <img src="./resources/code.svg">
+                    </div>
+                </div>
+                <div id="bento-career">
+                    <!-- Timeline Image -->
+                    <div class="bento-career-section bento">
+
+                    </div>
+                </div>
+                <div id="bento-projects">
+                    <div class="bento-project bento">
+                        <!-- Project Image -->
+                        <h2>Grocery Manager</h2>
+                    </div>
+                    <div class="bento-project bento">
+                        <!-- Project Image -->
+                        <h2>Flatball Statistics Tracker</h2>
+                    </div>
+                </div>
+                <div id="bento-contact" class="bento">
+                    <h1>Contact Me</h1>
+                    <!-- Socials -->
                 </div>
             </div>
-            <section class="bio">
-                <div>
-                    <h3>About Me</h3>
-                    <p>I'm an aspiring Computer Engineer currently attending The University of British Columbia. I am also a mentor, private tutor, and an ultimate frisbee player. Whether I'm studying, coding, or creating, my belief in putting in my best effort is at the core of everything I do</p>
-                </div>
-                <div>
-                    <h3>Experience</h3>
-                    <p>In my two years of programming experience, I've had the privilege of creating multiple projects which solve real-life challenges or showcase my growing skill set. My commitment to continuous learning hashas been a driving force behind my rapid progress in the world of programming.</p>
-                </div>
-                <div>
-                    <h3>Education</h3>
-                    <p>I'm on an exciting journey pursuing my Bachelor's Degree in Applied Sciences at The University of British Columbia. Currently in my third year, my focus is on computer engineering, where I am learning software, hardware, and everything in between.</p>
-                </div>
-                <div>
-                    <h3>Technical Skills</h3>
-                    <p>Proficient in Java, JavaScript, C++, C, and Python, I leverage strong problem-solving and analytical abilities in designing and integrating mobile/web applications. My approach involves following the software development lifecycle, a perspective that shapes the projects highlighted in the next section.</p>
-                </div>
-                <div>
-                    <h3>Projects</h3>
-                    <p>Some notable <a class="accent" href="./projects.html">projects</a> I've worked on include a Grocery Manager mobile application, and a Flatball Stat Tracker. Both projects are full-stack applications, one being a group project for my course, and the other being a passion project. These experiences have deepened my understanding of the software design lifecycle, full-stack project development, project development approaches (agile/scrum), and much more.</p>
-                </div>
-                <div>
-                    <h3>Future Goals</h3>
-                    <p>My goal for the future is to evolve into a versatile software engineer specializing in full-stack development and software lifecycles. Eager to embark on new challenges, I'm actively seeking internship opportunities where I can contribute my skills to projects on the front-end, back-end.</p>
-                </div>
-            </section>
-        </section>
-        <footer class="footer">
-            <h5 class="center-text">Version 2.0.3. Updated & Published on December 11th 2023.</h5>
-            <h5 class="center-text">Copyright &copy; 2023 Louie Tang. All Rights Reserved.</h5>
-        </footer>
-    </body>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
 </html>

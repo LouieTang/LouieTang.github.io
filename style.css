@@ -1,0 +1,148 @@
+/* || RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--text-color);
+    background-color: var(--clr-neutral-100);
+}
+
+button {
+    font: inherit;
+    text-decoration: none;
+    border: none;
+}
+
+input {
+    font: inherit;
+    text-decoration: none;
+    border: var(--clr-primary-400) solid 1px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--clr-primary-400);
+}
+
+hr {
+    border: 0.5px solid var(--clr-primary-400);
+}
+
+/* GENERAL STYLES */
+
+html{
+    font-family: sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: center;
+}
+
+#page-view {
+    width: 80%;
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1;
+    border: 1px solid black;
+}
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* || VARIABLES */
+
+:root {
+    /* COLOURS */
+    /* --clr-primary-400: hsl(143, 37%, 14%);
+
+    --clr-secondary-400: hsl(240, 100%, 25%);
+    --clr-secondary-100: hsl(240, 50%, 99%);
+    
+    --clr-accent-400: hsl(120, 38%, 74%);
+    --clr-accent-300: hsl(120, 38%, 81%);
+
+
+    --clr-neutral-900: hsl(143, 12%, 13%);
+    --clr-neutral-300: hsl(71, 29%, 92%);
+    --clr-neutral-100: hsl(71, 27%, 97%); */
+
+}
+
+/* || BLOCKS/COMPONENTS */
+
+    /* navigation */
+    .nav__ul {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+        border: 1px solid black;
+    }
+    .nav__ul-right{
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+    }
+
+    .nav__ul-right li {
+        margin-left: 1rem;
+    }
+
+    /* bento */
+    .bento {
+        border: 1px solid black;
+        border-radius: 1rem;
+        padding: 1rem;
+    }
+
+    #bento-about {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    #bento-projects {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #bento-contact {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+/* MEDIA */
+
+@media screen and (max-width: 1023px) and (min-width: 768px){
+    #page-view{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    #page-view{
+        width: 100%;
+    }
+    #bento-about {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .bento-hidden{
+        display: none;
+    }
+}
