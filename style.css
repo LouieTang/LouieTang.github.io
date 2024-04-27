@@ -44,7 +44,7 @@ body {
 }
 
 #page-view {
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-flow: column nowrap;
     flex: 1;
@@ -130,7 +130,7 @@ li {
 
 @media screen and (max-width: 1023px) and (min-width: 768px){
     #page-view{
-        width: 90%;
+        width: 95%;
     }
 }
 
@@ -138,11 +138,15 @@ li {
     #page-view{
         width: 100%;
     }
-    #bento-about {
+    #bento-about{
         display: grid;
         grid-template-columns: 1fr;
     }
     .bento-hidden{
         display: none;
+    }
+    #bento-contact{
+        display: grid;
+        grid-template-columns: 1fr;
     }
 }
