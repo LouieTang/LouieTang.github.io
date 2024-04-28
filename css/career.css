@@ -1,9 +1,0 @@
-/* career.html */
-.career-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.career-div {
-    margin: 2rem;
-}
