@@ -17,7 +17,7 @@ button {
 input {
     font: inherit;
     text-decoration: none;
-    border: var(--clr-secondary-200) solid 1px;
+    /* border: var(--clr-secondary-200) solid 1px; */
 }
 
 a {
@@ -26,7 +26,7 @@ a {
 }
 
 hr {
-    border: 0.5px solid var(--clr-secondary-200);
+    /* border: 0.5px solid var(--clr-secondary-200); */
 }
 
 .indent {
@@ -53,7 +53,7 @@ body {
     display: flex;
     flex-flow: column nowrap;
     flex: 1;
-    border: 1px solid var(--clr-primary-400);
+    /* border: 1px solid var(--clr-primary-400); */
 }
 
 .block {
@@ -90,6 +90,8 @@ li {
 
 :root {
 
+    --clr-transparent: transparent;
+
     --clr-secondary-100: hsla(65, 43%, 95%, 1); /* #F6F7EB */
     --clr-secondary-200: hsla(22, 25%, 90%, 1); /* #D9E0A3 */
 
@@ -104,14 +106,21 @@ li {
 /* || BLOCKS/COMPONENTS */
 
     /* navigation */
+    nav {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
     .nav__ul {
         display: flex;
         flex-flow: row nowrap;
         align-items: center;
         justify-content: space-between;
         padding: 1.5rem 2rem;
-        border: 1px solid var(--clr-primary-400);
+        /* border: 1px solid var(--clr-primary-400); */
         font-size: 1.2rem;
+        text-shadow:  var(--clr-secondary-200) 0.5px 0.5px 1px;
     }
 
     .nav__ul > li:first-child {
@@ -135,11 +144,13 @@ li {
 
     /* bento */
     .bento {
-        border: 1px solid var(--clr-primary-400);
+        position: relative;
+        border: 2px solid var(--clr-transparent);
         border-radius: 1rem;
         padding: 2rem;
         margin: 1rem 0;
-        background-image: linear-gradient(to bottom right, var(--clr-background-900), var(--clr-accent-400));
+        background-image: linear-gradient(to bottom left, var(--clr-background-900), var(--clr-accent-400));
+        box-shadow: var(--clr-secondary-200) 0.5px 0.5px 2.5px;
     }
 
     #bento-about {
@@ -163,9 +174,10 @@ li {
     #bento-career {
         height: auto;
         margin: 0 1rem;
-        border: 1px solid var(--clr-primary-400);
+        border: 2px solid var(--clr-transparent);
         overflow-x: scroll;
         border-radius: 1rem;
+        padding: 0 0.1rem;
     }
 
     .bento-container {
@@ -193,7 +205,7 @@ li {
         flex-flow: column nowrap;
         justify-content: end;
         margin: 1rem 0 0 0;
-        border: 1px solid var(--clr-primary-400);
+        border: 2px solid var(--clr-transparent);
         border-radius: 1rem;
         padding: 1rem;
         height: 80vh;
@@ -208,6 +220,7 @@ li {
         grid-template-columns: 1fr 2fr;
         gap: 1rem;
         padding: 1rem;
+        margin: 1rem 0 0 0;
     }
 
     .bento-list > li {
@@ -222,6 +235,7 @@ li {
         ), url("resources/grocerymanager.jpeg");
         background-size: cover;
         background-position: center;
+        background-repeat: no-repeat;
     }
 
     .flatball-stat-tracker {
@@ -229,8 +243,9 @@ li {
         rgba(255, 255, 255, 0) 0%, 
         rgba(255, 255, 255, 1) 90% 
         ), url("resources/code.svg");
-        background-size: cover;
-        background-position: center;
+        background-size: 100% auto;
+        background-position: center top;
+        background-repeat: no-repeat;
     }
 
     .live-chat {
@@ -240,6 +255,7 @@ li {
         ), url("resources/chatroom.png");
         background-size: cover;
         background-position: center;
+        background-repeat: no-repeat;
     }
 
     .media-inform {
@@ -249,10 +265,11 @@ li {
         ), url("resources/mediainform3.png");
         background-size: 100% auto;
         background-position: center top;
+        background-repeat: no-repeat;
     }
 
     .image-placeholder {
-        background: linear-gradient(to bottom right, 
+        background: linear-gradient(to bottom left, 
         rgba(255, 255, 255, 0) 0%, 
         rgba(255, 255, 255, 0.5) 75% 
         ), url("resources/1266.JPEG");
@@ -262,21 +279,49 @@ li {
 
     .icon {
         width: 3rem;
-        height: 3rem;
+        filter: brightness(70%);
     }
 
     .icon-l {
-        width: 5rem;    
+        width: 5rem;
+        filter: brightness(70%);
+    }
+
+    .icon-l:hover, .icon:hover {
+        filter: initial;
+        transition: filter 0.4s;
+    }
+
+    .nav__ul-right a:hover {
+        color: var(--clr-primary-400);
+        transition: color 0.4s;
     }
     
-    .email {
-        filter: invert(90%) sepia(6%) saturate(1476%) hue-rotate(24deg) brightness(94%) contrast(100%);
+    .email, .expand {
+        filter: invert(90%) sepia(6%) saturate(1476%) hue-rotate(24deg) brightness(70%) contrast(100%);
+    }
+
+    .email:hover, .expand:hover {
+        filter: invert(90%) sepia(6%) saturate(1476%) hue-rotate(24deg) brightness(100%) contrast(100%);
+        transition: filter 0.4s;
     }
     
     .socials {
         margin-right: 1rem;
     }
+    
+    .bento:hover {
+        border: 2px solid var(--clr-primary-400);
+        transition: border 0.4s;
+    }
 
+    .expand {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 1.5rem;
+        margin: 1rem;
+    }
 
 /* MEDIA */
 
@@ -338,7 +383,7 @@ li {
     }
 
     .icon-l {
-        width: 3rem;    
+        width: 3rem;
     }
 
     .hidden {
