@@ -76,6 +76,15 @@ li {
     text-align: center;
 }
 
+.hyperlink {
+    text-decoration: underline;
+}
+
+.disabled-link {
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
 
 /* || VARIABLES */
 
@@ -190,6 +199,10 @@ li {
         height: 80vh;
     }
 
+    .bento-project > * {
+        color: var(--clr-accent-400);
+    }
+
     #bento-contact {
         display: grid;
         grid-template-columns: 1fr 2fr;
@@ -211,14 +224,57 @@ li {
         background-position: center;
     }
 
-    .flatball-sstat-tracker {
-        background-image: url("resources/flatballstatstracker.jpeg");
+    .flatball-stat-tracker {
+        background: linear-gradient(to bottom, 
+        rgba(255, 255, 255, 0) 0%, 
+        rgba(255, 255, 255, 1) 90% 
+        ), url("resources/code.svg");
         background-size: cover;
         background-position: center;
     }
 
-    .grocery-manager > * {
-        color: var(--clr-accent-400);
+    .live-chat {
+        background: linear-gradient(to bottom, 
+        rgba(255, 255, 255, 0) 0%, 
+        rgba(255, 255, 255, 1) 90% 
+        ), url("resources/chatroom.png");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .media-inform {
+        background: linear-gradient(to bottom, 
+        rgba(255, 255, 255, 0) 0%, 
+        rgba(255, 255, 255, 1) 90% 
+        ), url("resources/mediainform3.png");
+        background-size: 100% auto;
+        background-position: center top;
+    }
+
+    .image-placeholder {
+        background: linear-gradient(to bottom right, 
+        rgba(255, 255, 255, 0) 0%, 
+        rgba(255, 255, 255, 0.5) 75% 
+        ), url("resources/1266.JPEG");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .icon {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .icon-l {
+        width: 5rem;    
+    }
+    
+    .email {
+        filter: invert(90%) sepia(6%) saturate(1476%) hue-rotate(24deg) brightness(94%) contrast(100%);
+    }
+    
+    .socials {
+        margin-right: 1rem;
     }
 
 
@@ -279,5 +335,13 @@ li {
         width: 100%;
         height: auto;
         margin-right: 0;
+    }
+
+    .icon-l {
+        width: 3rem;    
+    }
+
+    .hidden {
+        display: none;
     }
 }
