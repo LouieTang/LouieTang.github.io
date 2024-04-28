@@ -1,0 +1,347 @@
+/* || RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--clr-secondary-200);
+    background-color: var(--clr-background-900);
+}
+
+button {
+    font: inherit;
+    text-decoration: none;
+    border: none;
+}
+
+input {
+    font: inherit;
+    text-decoration: none;
+    border: var(--clr-secondary-200) solid 1px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--clr-secondary-200);
+}
+
+hr {
+    border: 0.5px solid var(--clr-secondary-200);
+}
+
+.indent {
+    text-indent: 2rem;
+}
+
+/* GENERAL STYLES */
+
+html{
+    font-family: sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: center;
+    line-height: 1.5rem;
+}
+
+#page-view {
+    width: 90%;
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1;
+    border: 1px solid var(--clr-primary-400);
+}
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+li {
+    list-style: none;
+}
+
+.footer {
+    padding: 2rem;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.hyperlink {
+    text-decoration: underline;
+}
+
+.disabled-link {
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+
+/* || VARIABLES */
+
+:root {
+
+    --clr-secondary-100: hsla(65, 43%, 95%, 1); /* #F6F7EB */
+    --clr-secondary-200: hsla(22, 25%, 90%, 1); /* #D9E0A3 */
+
+    --clr-primary-400: hsla(22, 45%, 30%, 1); /* #6F432A */
+
+    --clr-accent-400: hsla(240, 100%, 25%, 1); /* #000080 */
+
+    --clr-background-900: hsla(204, 86%, 6%, 1); /* #02111B */
+
+}
+
+/* || BLOCKS/COMPONENTS */
+
+    /* navigation */
+    .nav__ul {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.5rem 2rem;
+        border: 1px solid var(--clr-primary-400);
+        font-size: 1.2rem;
+    }
+
+    .nav__ul > li:first-child {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .nav__ul-right{
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+    }
+
+    .nav__ul-right li {
+        margin-left: 1rem;
+    }
+
+    .transparent, .transparent > *, .transparent > * > * {
+        background-color: transparent;
+    }
+
+    /* bento */
+    .bento {
+        border: 1px solid var(--clr-primary-400);
+        border-radius: 1rem;
+        padding: 2rem;
+        margin: 1rem 0;
+        background-image: linear-gradient(to bottom right, var(--clr-background-900), var(--clr-accent-400));
+    }
+
+    #bento-about {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .bento-right {
+        display: flex;
+        justify-content: center;
+    }
+
+    .scrollbar {
+        display: flex;
+        flex-flow: row nowrap;
+        white-space: nowrap;
+    }
+
+    #bento-career {
+        height: auto;
+        margin: 0 1rem;
+        border: 1px solid var(--clr-primary-400);
+        overflow-x: scroll;
+        border-radius: 1rem;
+    }
+
+    .bento-container {
+        width: 85%;
+        height: 85%;
+        overflow: auto;
+        display: inline-block;
+        white-space: wrap;
+        margin-right: 1rem;
+    }
+
+    .last-child{
+        margin-right: 0;
+    }
+
+    #bento-portfolio {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0 1rem;
+        padding: 0 1rem;
+    }
+
+    .bento-project {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: end;
+        margin: 1rem 0 0 0;
+        border: 1px solid var(--clr-primary-400);
+        border-radius: 1rem;
+        padding: 1rem;
+        height: 80vh;
+    }
+
+    .bento-project > * {
+        color: var(--clr-accent-400);
+    }
+
+    #bento-contact {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .bento-list > li {
+        list-style: square inside;
+    }
+
+    /* projects */
+    .grocery-manager {
+        background: linear-gradient(to bottom, 
+        rgba(255, 255, 255, 0) 0%, 
+        rgba(255, 255, 255, 1) 90% 
+        ), url("resources/grocerymanager.jpeg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .flatball-stat-tracker {
+        background: linear-gradient(to bottom, 
+        rgba(255, 255, 255, 0) 0%, 
+        rgba(255, 255, 255, 1) 90% 
+        ), url("resources/code.svg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .live-chat {
+        background: linear-gradient(to bottom, 
+        rgba(255, 255, 255, 0) 0%, 
+        rgba(255, 255, 255, 1) 90% 
+        ), url("resources/chatroom.png");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .media-inform {
+        background: linear-gradient(to bottom, 
+        rgba(255, 255, 255, 0) 0%, 
+        rgba(255, 255, 255, 1) 90% 
+        ), url("resources/mediainform3.png");
+        background-size: 100% auto;
+        background-position: center top;
+    }
+
+    .image-placeholder {
+        background: linear-gradient(to bottom right, 
+        rgba(255, 255, 255, 0) 0%, 
+        rgba(255, 255, 255, 0.5) 75% 
+        ), url("resources/1266.JPEG");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .icon {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .icon-l {
+        width: 5rem;    
+    }
+    
+    .email {
+        filter: invert(90%) sepia(6%) saturate(1476%) hue-rotate(24deg) brightness(94%) contrast(100%);
+    }
+    
+    .socials {
+        margin-right: 1rem;
+    }
+
+
+/* MEDIA */
+
+@media screen and (max-width: 1023px) and (min-width: 768px){
+    #page-view{
+        width: 95%;
+    }
+
+    #bento-portfolio{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #bento-about{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .bento-hidden{
+        display: none;
+    }
+
+    #bento-contact{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 767px){
+    #page-view{
+        width: 100%;
+    }
+
+    #bento-about{
+        display: grid;
+       
+        grid-template-columns: 1fr;
+    }
+
+    .bento-hidden{
+        display: none;
+    }
+
+    #bento-contact{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #bento-portfolio{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .bento-container {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+    }
+
+    .icon-l {
+        width: 3rem;    
+    }
+
+    .hidden {
+        display: none;
+    }
+}
