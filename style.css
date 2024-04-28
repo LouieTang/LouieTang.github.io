@@ -109,28 +109,70 @@ li {
         border: 1px solid black;
         border-radius: 1rem;
         padding: 1rem;
+        margin: 1rem 0;
     }
 
     #bento-about {
         display: grid;
         grid-template-columns: 2fr 1fr;
+        gap: 1rem;
+        padding: 1rem;
     }
 
-    #bento-projects {
+    .scrollbar {
+        display: flex;
+        flex-flow: row nowrap;
+        white-space: nowrap;
+    }
+
+    #bento-career {
+        height: 300px;
+        margin: 0 1rem;
+        border: 1px solid black;
+        overflow-x: scroll;
+        border-radius: 1rem;
+    }
+
+    .bento-container {
+        width: 90%;
+        height: 85%;
+        overflow: auto;
+        display: inline-block;
+        white-space: wrap;
+    }
+
+    #bento-portfolio {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        gap: 0 1rem;
+        padding: 0 1rem;
+    }
+
+    .bento-project {
+        margin: 1rem 0 0 0;
+        border: 1px solid black;
+        border-radius: 1rem;
+        padding: 1rem;
     }
 
     #bento-contact {
         display: grid;
         grid-template-columns: 1fr 2fr;
+        gap: 1rem;
+        padding: 1rem;
     }
+
 
 /* MEDIA */
 
 @media screen and (max-width: 1023px) and (min-width: 768px){
     #page-view{
         width: 95%;
+    }
+
+    #bento-portfolio{
+        display: grid;
+        grid-template-columns: 1fr;
     }
 }
 
@@ -148,5 +190,15 @@ li {
     #bento-contact{
         display: grid;
         grid-template-columns: 1fr;
+    }
+
+    #bento-portfolio{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .bento-container {
+        display: block;
+        width: 100%;
+        height: auto;
     }
 }
