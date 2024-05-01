@@ -50,6 +50,6 @@ document.addEventListener("keydown", (e) => {
 const nolinks = document.querySelectorAll(".disabled-link");
 nolinks.forEach(link => {
     link.addEventListener("click", () => {
-        window.alert("My apologies, this demo is currently not hosted, please contact me for an interactive demo by request.");
+        window.alert("My apologies, this section is currently under construction, please contact me for more details.");
     });
 });
