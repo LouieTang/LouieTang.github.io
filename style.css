@@ -81,7 +81,7 @@ li {
 }
 
 .disabled-link {
-    pointer-events: none;
+    /* pointer-events: none; */
     cursor: not-allowed;
 }
 
@@ -298,11 +298,11 @@ li {
         transition: color 0.4s;
     }
     
-    .email, .expand {
+    .email, .expand, .close {
         filter: invert(90%) sepia(6%) saturate(1476%) hue-rotate(24deg) brightness(70%) contrast(100%);
     }
 
-    .email:hover, .expand:hover {
+    .email:hover, .expand:hover, .close:hover {
         filter: invert(90%) sepia(6%) saturate(1476%) hue-rotate(24deg) brightness(100%) contrast(100%);
         transition: filter 0.4s;
     }
@@ -316,7 +316,7 @@ li {
         transition: border 0.4s;
     }
 
-    .expand {
+    .expand, .close {
         position: absolute;
         top: 0;
         right: 0;
@@ -333,12 +333,11 @@ li {
         width: 100vw;
         background-color: var(--clr-opaque);
         z-index: 1;
-        display: flex;
-        /* display: none; */
+        /* display: flex; */
+        display: none;
         justify-content: center;
     }
     #popup {
-        /* display: none; */
         position: fixed;
         height: 80vh;
         width: 60%;
@@ -347,6 +346,8 @@ li {
         border-radius: 1rem;
         background-image: linear-gradient(to bottom left, var(--clr-background-900), var(--clr-accent-400));
         box-shadow: var(--clr-secondary-200) 0.5px 0.5px 2.5px;
+        overflow: auto;
+        padding: 3rem;
     }
 
     #content-view {
