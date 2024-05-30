@@ -10,9 +10,9 @@ resess.addEventListener("click", () => {
     document.getElementById("popup-content").innerHTML = `
     <h2>Undergraduate Research Assistant</h2>
     <h4>ReSeSS Research Lab - UBC Department of Electrical and Computer Engineering</h4>
-    <h5>Jan 2024 - Present</h5>
+    <h5>Jan 2024 - April 2024</h5>
     <br>
-    <p class="indent">I am currently working on creating a server mock tool as an extension to the mobile application coverage research stream at the ReSeSS Research Lab. This work is supervised by Dr. Julia Rubin, an associate professor at the University of British Columbia. Previous work includes collaboration with other members of the lab, including bouts of replication, verification, and validation on research findings. Additionally, doing literature reviews and discussion on related works.</p>
+    <p class="indent">During my time with ReSeSS I was working on a server mock tool; a project extension to the mobile application coverage research stream at the ReSeSS Research Lab. This work was supervised by Dr. Julia Rubin, an associate professor at the University of British Columbia. Additional work includes collaboration with other members of the lab, including bouts of replication, verification, and validation on research findings.</p>
     `
 });
 
@@ -23,7 +23,7 @@ tutor.addEventListener("click", () =>{
     <h2>Private Tutor</h2>
     <h5>Oct 2021 - Present</h5>
     <br>
-    <p class="indent">My tutoring philosophy has always been to tailor my teaching towards the student's needs and learning styles. My services include a complementary development plan, custom lesson plans, extra materials, and a summary after every session. I have accumulated 450+ hours tutoring youth in various academic subjects. Currently, my expertise is in Mathematics, and Physics, however I have also tutored Chemistry and English in the past. I am also open to tutoring University/higher education level Mathematics, Physics, Statistics, and many more. Please contact me through my socials for rates and for more information.</p>
+    <p class="indent">My tutoring philosophy has always been to tailor my teaching towards the student's needs and learning styles. My services include a complementary development plan, custom lesson plans, extra materials, and a summary after every session. I have accumulated 450+ hours tutoring youth in various academic subjects. Currently, my expertise is in Mathematics, and Physics, however I have also tutored Chemistry and English in the past. I am also open to tutoring University/higher education level Mathematics, Physics, Statistics, and many more. Please contact me through my socials for more information and/or rates.</p>
     `
 });
 
