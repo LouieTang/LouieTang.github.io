@@ -1,7 +1,7 @@
 function Career(){
     return (
         <>
-            <h2>Career</h2>
+            <h2 id="career">Career</h2>
             
         </>
     );

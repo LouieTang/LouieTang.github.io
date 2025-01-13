@@ -1,5 +1,4 @@
 /* || RESET */
-
 * {
     margin: 0;
     padding: 0;
@@ -27,11 +26,12 @@ a {
     text-indent: 2rem;
 }
 
-/* GENERAL STYLES */
-
-html{
+html {
+    width: 100%;
+    overflow-x: hidden;
     font-family: sans-serif;
 }
+
 
 /* || VARIABLES */
 
