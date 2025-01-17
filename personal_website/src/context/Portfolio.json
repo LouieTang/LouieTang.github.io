@@ -1,0 +1,43 @@
+{
+    "portfolio": [
+        {
+            "title": "Virtual Private Network",
+            "date": "Oct. 2024 - Nov. 2024",
+            "organization": "CPEN 442 - Introduction to Cybersecurity",
+            "location": null,
+            "externalLink": null,
+            "duration": "Oct. 2024 - Nov. 2024",
+            "highlights": [
+                "Collaborated with a partner to design and implement a secure communication protocol ensuring confidentiality, integrity, authentication, forward secrecy, and post-compromise security.",
+                "Developed the project using Python and the PyCryptodome library to implement robust cryptographic functionalities, including encryption, decryption, and secure key exchange mechanisms.",
+                "Created and deployed a 'Man-in-the-Middle' (MITM) attack simulation to intercept and manipulate communication between client-server systems, identifying vulnerabilities and testing the protocol’s resilience.",
+                "Achieved project grade of 110%, demonstrating thorough understanding of cybersecurity principles and practical application."
+            ]
+        },
+        {
+            "title": "Detoxify Live Chat Web Application",
+            "date": "Jan. 2024 - Apr. 2024",
+            "organization": "CPEN 322 - Software Construction II",
+            "location": null,
+            "externalLink": null,
+            "duration": "Jan. 2024 - Apr. 2024",
+            "highlights": [
+                "Collaborated in a group of two to build a live chat web application that incorporates full stack development and artificial intelligence tools. This project achieved full marks in the course.",
+                "Front and back-end development using the HTML, CSS, JavaScript, and Node.js, respectively. The server is hosted on AWS EC2, chat moderation uses Detoxify AI to calculate message severity. Data stored on server using MongoDB, server follows a micro-service architecture using REST API calls between client and server, and between server, Detoxify AI, and database manager."
+            ]
+        },
+        {
+            "title": "Grocery Manager Android Application",
+            "date": "Oct. 2023 - Dec. 2023",
+            "organization": "CPEN 321 - Software Engineering",
+            "location": null,
+            "externalLink": "https://github.com/LouieTang/grocery-manager",
+            "duration": "Oct. 2023 - Dec. 2023",
+            "highlights": [
+                "Front-end lead in a team of four building an Android application for tracking a user’s grocery items, and buying trends. The app monitors a user’s inventory, notifies users about their expiring items, suggests personalized recipe suggestions, and incorporates a real time chat between users.",
+                "Implemented the user authentication system using the Android SDK (Java) and Google Sign-In. User data stored using MySQL and Node.js back-end. Server hosted on Microsoft Azure VM, later migrated to AWS EC2, and communication between user and server follow REST API protocols, OkHttp and WebSockets.",
+                "Incorporated Waterfall and Agile methodologies for project management. Used Espresso and Jest for testing."
+            ]
+        }
+    ]
+}

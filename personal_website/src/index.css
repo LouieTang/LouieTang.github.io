@@ -30,6 +30,19 @@ html {
     width: 100%;
     overflow-x: hidden;
     font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    width: 75%;
+    overflow-x: hidden;
+    font-family: sans-serif;
+    padding: 2rem 0;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    line-height: 1.5;
 }
 
 
@@ -52,5 +65,27 @@ html {
 }
 
 /* || BLOCKS/COMPONENTS */
+.navbar {
+    display: flex;
+    justify-content: right;
+    gap: 1.5rem;
+    margin-right: 3rem;
+    font-size: 1.1rem
+}
 
 /* MEDIA */
+@media screen and (max-width: 1023px) and (min-width: 768px){
+    body {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    body {
+        width: 95%;
+    }
+
+    .navbar {
+        display: none;
+    }
+}

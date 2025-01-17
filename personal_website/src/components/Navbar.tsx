@@ -1,6 +1,6 @@
 function Navbar(){
     return (
-        <ul className="nav__ul">
+        <ul className="navbar">
             <li><a href="#home">Home</a></li>
             <li><a href="#career">Career</a></li>
             <li><a href="#portfolio">Portfolio</a></li>

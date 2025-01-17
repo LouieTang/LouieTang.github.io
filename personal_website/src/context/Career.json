@@ -1,0 +1,67 @@
+{
+    "career": [
+        {
+            "title": "Undergraduate Teaching Assistant - CHEM 154 Labs",
+            "organization": "UBC Department of Chemistry",
+            "location": "Vancouver, BC",
+            "duration": "Sep. 2024 - Dec. 2024",
+            "highlights": [
+                "Continuous adaptation and implementation for weekly labs and lab assignments.",
+                "Responsible for testing, and marking assignments, answering student questions, and providing detailed feedback in a timely manner."
+            ],
+            "externalLink": null
+        },
+        {
+            "title": "Undergraduate Research Assistant",
+            "organization": "UBC Department of Chemistry",
+            "location": "Vancouver, BC",
+            "duration": "May. 2024 - Aug. 2024",
+            "highlights": [
+                "Developed material according to the first year undergraduate chemistry curriculum using H5P and Canvas LMS.",
+                "Curated Python scripts for converting different data forms into data in selected mediums to analyze and interpret findings for an upcoming research paper."
+            ],
+            "externalLink": null
+        },
+        {
+            "title": "Undergraduate Research Assistant",
+            "organization": "The ReSeSS Research Lab - UBC Department of Electrical and Computer Engineering",
+            "location": "Vancouver, BC",
+            "duration": "Jan. 2024 - Apr. 2024",
+            "highlights": [
+                "Re-validated the findings of primary researcher’s work using manual testing and automated GUI testing tools to ensure the integrity, accuracy, and relevancy of the findings were still significant after six months.",
+                "Analyzed Android application activity reach-ability using JADX Java decompiler and manual analysis to classify the reasons for low activity discovery percentage of GUI exploration results.",
+                "Contributed prototypes for the initial stages of a novel android software tool that generate benchmarks such that application server states are mocked and saved for future testing usage."
+            ],
+            "externalLink": null
+        },
+        {
+            "title": "Private Tutor",
+            "organization": "Self-employed",
+            "location": "Vancouver, British Columbia, Canada",
+            "duration": "Oct. 2021 - Dec. 2023",
+            "highlights": [
+                "Offered personalized tutoring services covering subjects including AP Calculus, AP Physics C, and Chemistry 12, catering to individual student needs and learning styles.",
+                "Demonstrated strong communication skills by maintaining regular contact with both students and parents, addressing challenges and tracking progress to ensure academic success.",
+                "Created custom lesson plans and materials aligned with student curriculum and goals, adapting teaching methods to accommodate diverse learning needs.",
+                "Provided comprehensive lesson summaries after each session, outlining key concepts covered and areas for improvement to reinforce learning objectives.",
+                "Accumulated over 450 hours of tutoring experience."
+            ],
+            "externalLink": null
+        },
+        {
+            "title": "Youth Adventure Day Camp Leader",
+            "organization": "False Creek Community Centre",
+            "location": "Vancouver, British Columbia, Canada",
+            "duration": "Jul. 2022 - Aug. 2022",
+            "highlights": [
+                "Led and mentored a diverse group of youth aged 12-17.",
+                "Developed and implemented engaging daily activities and programs to promote physical, emotional, and social development.",
+                "Communicated effectively with parents/guardians, addressing any concerns or inquiries promptly and professionally.",
+                "Collaborated with camp administration to develop and update camp policies, procedures, and curriculum to meet the needs of campers and staff.",
+                "First Aid & CPR/AED level C Certified (Expiry Date: 2025-06-16).",
+                "Kayak Instructor Certified."
+            ],
+            "externalLink": null
+        }
+    ]
+}
