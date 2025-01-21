@@ -4,7 +4,7 @@ import "../styles/Career.css";
 
 function Career() {
     return (
-        <div id="career">
+        <div id="career" className="fade-in">
             <h2>Career Timeline</h2>
             <div className="timeline">
                 {careerData.career.map((item, index) => (

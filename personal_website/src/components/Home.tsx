@@ -3,10 +3,10 @@ import "../styles/Home.css";
 
 function Home() {
     return (
-        <div id="home">
+        <div id="home" className="fade-in">
             <div className="home-content title">
                 <h1>Louie Tang</h1>
-                <h2>Turning Potential Into Reality</h2>
+                <h2>Turning Potential Into Progress</h2>
             </div>
             <div className="home-content scroll-down">
                 <div>

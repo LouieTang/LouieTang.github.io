@@ -29,7 +29,7 @@ a {
 html {
     width: 100%;
     overflow-x: hidden;
-    font-family: sans-serif;
+    font-family: "Helvetica", sans-serif;
     display: flex;
     justify-content: center;
     background-color: var(--clr-background-900);
@@ -38,7 +38,7 @@ html {
 body {
     width: 75%;
     overflow-x: hidden;
-    font-family: sans-serif;
+    font-family: "Helvetica", sans-serif;
     padding: 2rem 0;
 }
 
@@ -73,6 +73,30 @@ p, h1, h2, h3, h4, h5, h6 {
     margin-right: 3rem;
     font-size: 1.1rem
 }
+
+.pointer {
+    cursor: pointer;
+}
+
+/* Base styles for fade-in sections */
+.fade-in {
+    min-height: 100vh;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* font-size: 2rem; */
+    background: #f0f0f0;
+    /* margin: 20px 0; */
+    opacity: 0; /* Start with invisible */
+    transform: translateY(50px); /* Start slightly below */
+    transition: opacity 0.8s ease, transform 0.8s ease; /* Smooth transition */
+  }
+  
+  /* Add a class when the section is in view */
+  .fade-in.in-view {
+    opacity: 1; /* Fully visible */
+    transform: translateY(0); /* Reset transform */
+  }  
 
 /* MEDIA */
 @media screen and (max-width: 1023px) and (min-width: 768px){

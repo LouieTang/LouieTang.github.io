@@ -17,16 +17,18 @@ function Portfolio(){
     };
 
     return (
-        <div id="portfolio">
-            <h2>Portfolio</h2>
-            <div className="portfolio-container">
-                <div id="carousel">
-                    <Highlight key={currentIndex} data={portfolioData.portfolio[currentIndex]} />
-                </div>
-                <div className="controls">
-                    <button onClick={handlePrev}><img src={leftArrow} alt="Left Arrow" /></button>
-                    <span>{currentIndex + 1}/{portfolioData.portfolio.length}</span>
-                    <button onClick={handleNext}><img src={rightArrow} alt="Right Arrow" /></button>
+        <div id="portfolio" className="fade-in">
+            <div>
+                <h2>Portfolio</h2>
+                <div className="portfolio-container">
+                    <div id="carousel">
+                        <Highlight key={currentIndex} data={portfolioData.portfolio[currentIndex]} />
+                    </div>
+                    <div className="controls">
+                        <button onClick={handlePrev}><img src={leftArrow} alt="Left Arrow" /></button>
+                        <span>{currentIndex + 1}/{portfolioData.portfolio.length}</span>
+                        <button onClick={handleNext}><img src={rightArrow} alt="Right Arrow" /></button>
+                    </div>
                 </div>
             </div>
         </div>

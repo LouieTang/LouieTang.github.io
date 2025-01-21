@@ -24,8 +24,9 @@
 }
 
 .highlight-list {
-    list-style: none;
+    list-style: disc;
     padding-bottom: 0.2rem;
+    margin-left: 2ch;
 }
 
 @media screen and (max-width: 767px){

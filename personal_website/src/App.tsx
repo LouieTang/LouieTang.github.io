@@ -2,6 +2,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Body from './components/Body'
 import Footer from './components/Footer'
+import metadata from "./context/metadata.json";
 
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
     <>
         <Navbar />
         <Body />
-        {/* <Footer /> */}
+        <Footer metadata={metadata} />
     </>
   )
 }
