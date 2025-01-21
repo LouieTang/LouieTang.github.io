@@ -1,0 +1,28 @@
+#carousel {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 0px 20px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto;
+}
+
+.controls {
+    display: flex;
+    gap: 20px;
+    font-size: 1.5rem;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}

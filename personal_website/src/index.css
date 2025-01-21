@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     color: var(--clr-primary-600);
-    background-color: var(--clr-background-900);
+    background-color: inherit;
 }
 
 button {
@@ -32,6 +32,7 @@ html {
     font-family: sans-serif;
     display: flex;
     justify-content: center;
+    background-color: var(--clr-background-900);
 }
 
 body {

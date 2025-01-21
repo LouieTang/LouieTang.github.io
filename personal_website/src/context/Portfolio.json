@@ -1,6 +1,20 @@
 {
     "portfolio": [
         {
+            "title": "CookWithMe",
+            "date": "Jan. 2025",
+            "organization": "Full Stack Web Application - Devpost nwHacks 2025 Hackathon",
+            "location": null,
+            "externalLink": "https://devpost.com/software/cook-with-me-8vmnwx",
+            "duration": "Jan. 2025",
+            "highlights": [
+                "Developed hands-free, interactive cooking features using Web Speech API, enabling users to follow recipes confidently without needing to touch their devices.",
+                "Engineered server-side logic to process structured responses from OpenAI GPT-4 for personalized recipe guidance, developed and integrated RESTful API endpoints to seamlessly connect the React front end with the Flask back end, and deployed a fully accessible live demo using AWS EC2, S3, and API Gateway for global access.",
+                "Selected as one of six Filmora Award Nominees out of 182 project submissions at nwHacks 2025."
+            ],
+                "image": "/assets/cookwithme.png"
+        },
+        {
             "title": "Virtual Private Network",
             "date": "Oct. 2024 - Nov. 2024",
             "organization": "CPEN 442 - Introduction to Cybersecurity",
@@ -12,7 +26,8 @@
                 "Developed the project using Python and the PyCryptodome library to implement robust cryptographic functionalities, including encryption, decryption, and secure key exchange mechanisms.",
                 "Created and deployed a 'Man-in-the-Middle' (MITM) attack simulation to intercept and manipulate communication between client-server systems, identifying vulnerabilities and testing the protocol’s resilience.",
                 "Achieved project grade of 110%, demonstrating thorough understanding of cybersecurity principles and practical application."
-            ]
+            ],
+            "image": "/assets/vpn.png"
         },
         {
             "title": "Detoxify Live Chat Web Application",
@@ -24,7 +39,8 @@
             "highlights": [
                 "Collaborated in a group of two to build a live chat web application that incorporates full stack development and artificial intelligence tools. This project achieved full marks in the course.",
                 "Front and back-end development using the HTML, CSS, JavaScript, and Node.js, respectively. The server is hosted on AWS EC2, chat moderation uses Detoxify AI to calculate message severity. Data stored on server using MongoDB, server follows a micro-service architecture using REST API calls between client and server, and between server, Detoxify AI, and database manager."
-            ]
+            ],
+            "image": "/assets/chatroom.png"
         },
         {
             "title": "Grocery Manager Android Application",
@@ -37,7 +53,8 @@
                 "Front-end lead in a team of four building an Android application for tracking a user’s grocery items, and buying trends. The app monitors a user’s inventory, notifies users about their expiring items, suggests personalized recipe suggestions, and incorporates a real time chat between users.",
                 "Implemented the user authentication system using the Android SDK (Java) and Google Sign-In. User data stored using MySQL and Node.js back-end. Server hosted on Microsoft Azure VM, later migrated to AWS EC2, and communication between user and server follow REST API protocols, OkHttp and WebSockets.",
                 "Incorporated Waterfall and Agile methodologies for project management. Used Espresso and Jest for testing."
-            ]
+            ],
+            "image": "assets/GroceryManager.JPG"
         }
     ]
 }

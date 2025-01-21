@@ -1,15 +1,17 @@
 import Career from "./Career";
 import Contact from "./Contact";
-import Home from "./Home";
 import Portfolio from "./Portfolio";
+import About from "./About";
+import Home from "./Home";
 
 function Body(){
     return (
         <>
             <Home />
+            <About />
             <Career />
             <Portfolio />
-            <Contact />
+            {/* <Contact /> */}
         </>
     );
 };

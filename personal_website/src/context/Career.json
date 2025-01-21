@@ -9,7 +9,8 @@
                 "Continuous adaptation and implementation for weekly labs and lab assignments.",
                 "Responsible for testing, and marking assignments, answering student questions, and providing detailed feedback in a timely manner."
             ],
-            "externalLink": null
+            "externalLink": null,
+            "image": null
         },
         {
             "title": "Undergraduate Research Assistant",
@@ -20,7 +21,8 @@
                 "Developed material according to the first year undergraduate chemistry curriculum using H5P and Canvas LMS.",
                 "Curated Python scripts for converting different data forms into data in selected mediums to analyze and interpret findings for an upcoming research paper."
             ],
-            "externalLink": null
+            "externalLink": null,
+            "image": null
         },
         {
             "title": "Undergraduate Research Assistant",
@@ -32,7 +34,8 @@
                 "Analyzed Android application activity reach-ability using JADX Java decompiler and manual analysis to classify the reasons for low activity discovery percentage of GUI exploration results.",
                 "Contributed prototypes for the initial stages of a novel android software tool that generate benchmarks such that application server states are mocked and saved for future testing usage."
             ],
-            "externalLink": null
+            "externalLink": null,
+            "image": null
         },
         {
             "title": "Private Tutor",
@@ -46,7 +49,8 @@
                 "Provided comprehensive lesson summaries after each session, outlining key concepts covered and areas for improvement to reinforce learning objectives.",
                 "Accumulated over 450 hours of tutoring experience."
             ],
-            "externalLink": null
+            "externalLink": null,
+            "image": null
         },
         {
             "title": "Youth Adventure Day Camp Leader",
@@ -61,7 +65,8 @@
                 "First Aid & CPR/AED level C Certified (Expiry Date: 2025-06-16).",
                 "Kayak Instructor Certified."
             ],
-            "externalLink": null
+            "externalLink": null,
+            "image": null
         }
     ]
 }
