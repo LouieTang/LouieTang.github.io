@@ -2,7 +2,7 @@
 
 Hello, thank you for checking out my personal website! Please visit it here at [LouieTang.github.io](https://louietang.github.io/). I intend for this website to be regularly updated, such that I can exercise and display my html/css/js understanding and proficiency. For the moment, this is a static web page. For dynamic web pages and other projects please check out my [GitHub](https://github.com/LouieTang).
 
-### Version 5 (First Patch 2025)
+### Version 5 (First Release 2025)
 Cleaned up my portfolio. Simple UI, applied my React.js knowledge to create this. Serverside logic to dynamically update the site whenever necessary (to modulate the workflow of updating the site). Enjoy!
 
 ### Version 4 (Summer 2024)

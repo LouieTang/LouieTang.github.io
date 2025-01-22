@@ -16,6 +16,10 @@
     padding-top: 10%;
 }
 
+.name {
+    white-space: nowrap;
+}
+
 .title {
     border-radius: 3rem;
     padding: 8rem 5rem;

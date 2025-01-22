@@ -2,7 +2,6 @@
     "portfolio": [
         {
             "title": "CookWithMe",
-            "date": "Jan. 2025",
             "organization": "Full Stack Web Application - Devpost nwHacks 2025 Hackathon",
             "location": null,
             "externalLink": "https://devpost.com/software/cook-with-me-8vmnwx",
@@ -16,7 +15,6 @@
         },
         {
             "title": "Virtual Private Network",
-            "date": "Oct. 2024 - Nov. 2024",
             "organization": "CPEN 442 - Introduction to Cybersecurity",
             "location": null,
             "externalLink": null,
@@ -31,7 +29,6 @@
         },
         {
             "title": "Detoxify Live Chat Web Application",
-            "date": "Jan. 2024 - Apr. 2024",
             "organization": "CPEN 322 - Software Construction II",
             "location": null,
             "externalLink": null,
@@ -44,7 +41,6 @@
         },
         {
             "title": "Grocery Manager Android Application",
-            "date": "Oct. 2023 - Dec. 2023",
             "organization": "CPEN 321 - Software Engineering",
             "location": null,
             "externalLink": "https://github.com/LouieTang/grocery-manager",
@@ -55,6 +51,45 @@
                 "Incorporated Waterfall and Agile methodologies for project management. Used Espresso and Jest for testing."
             ],
             "image": "assets/GroceryManager.JPG"
+        },
+        {
+            "title": "Flatball Stat Tracker",
+            "organization": null,
+            "location": null,
+            "externalLink": "https://github.com/LouieTang/flatball-stat-tracker",
+            "duration": "Oct. 2023 - Dec. 2023",
+            "highlights": [
+                "MERN full stack project architecture. A web application for tracking real time game statistics with cloud saving, and data analysis. A tool for ultimate frisbee teams to track individual player data, and match statistics.",
+                "Front-end UI/UX using React.js. Node.js and Express back-end. Incorporated Bcrypt and webtokens for user login and security. MongoDB Atlas for storing data."
+            ],
+            "image": "assets/flatball.png"
+        },
+        {
+            "title": "OS/161 Operating System",
+            "organization": "CPEN 331 - Operating Systems",
+            "location": null,
+            "externalLink": null,
+            "duration": "Sep. 2023 - Dec. 2023",
+            "highlights": [
+            "Worked in a team to extend the OS/161 educational operating system, implementing key components such as process management, virtual memory, and file systems.",
+            "Developed and tested kernel-level code in C, ensuring robust and efficient system performance.",
+            "Gained hands-on experience with low-level system programming, synchronization mechanisms, and debugging techniques."
+            ],
+            "image": "assets/os161.png"
+        },
+
+        {
+            "title": "Personal Website",
+            "organization": null,
+            "location": null,
+            "externalLink": "https://louietang.github.io/",
+            "duration": "Mar. 2023 - Present",
+            "highlights": [
+                "Designed and developed a personal website using React.js, HTML, CSS, and JavaScript to showcase my portfolio, projects, and resume.",
+                "Implemented responsive design principles to ensure optimal viewing experience across all devices.",
+                "Deployed the website using GitHub Pages, and continuously update the site with new projects and experiences."
+            ],
+            "image": "assets/website.png"
         }
     ]
 }
