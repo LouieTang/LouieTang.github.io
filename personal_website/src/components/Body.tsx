@@ -9,7 +9,7 @@ function Body(){
         const sections = document.querySelectorAll(".fade-in");
 
         const observer = new IntersectionObserver(
-            (entries, observer) => {
+            (entries, _) => {
             entries.forEach((entry) => {
                 if (entry.isIntersecting) {
                 entry.target.classList.add("in-view");
@@ -18,7 +18,7 @@ function Body(){
                 }
             });
             },
-            { threshold: 0.25 }
+            { threshold: 0.1 }
         );
 
         sections.forEach((section) => observer.observe(section));

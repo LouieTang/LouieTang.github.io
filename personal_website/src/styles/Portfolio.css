@@ -3,7 +3,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
+    /* background-color: red; */
+}
+
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    /* height: 100vh; */
+    /* overflow: auto; */
 }
 
 #carousel {
@@ -12,7 +22,7 @@
     margin: auto;
     overflow: hidden;
     border: 2px solid #ddd;
-    border-radius: 10px;
+    border-radius: 3rem;
     padding: 0px 20px;
     height: 60vh;
     display: flex;
@@ -24,7 +34,7 @@
 .controls {
     display: flex;
     gap: 20px;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .portfolio-container {

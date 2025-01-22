@@ -6,7 +6,7 @@ function Home() {
         <div id="home" className="fade-in">
             <div className="home-content title">
                 <h1>Louie Tang</h1>
-                <h2>Turning Potential Into Progress</h2>
+                <h3>Turning Potential Into Progress</h3>
             </div>
             <div className="home-content scroll-down">
                 <div>
