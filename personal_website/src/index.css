@@ -5,6 +5,12 @@
     box-sizing: border-box;
     color: var(--clr-primary-600);
     background-color: inherit;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+*::-webkit-scrollbar {
+    display: none;
 }
 
 button {
