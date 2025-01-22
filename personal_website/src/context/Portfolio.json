@@ -54,7 +54,7 @@
         },
         {
             "title": "Flatball Stat Tracker",
-            "organization": null,
+            "organization": "MERN Full Stack Project",
             "location": null,
             "externalLink": "https://github.com/LouieTang/flatball-stat-tracker",
             "duration": "Oct. 2023 - Dec. 2023",
@@ -80,7 +80,7 @@
 
         {
             "title": "Personal Website",
-            "organization": null,
+            "organization": "React.js, HTML, CSS, JavaScript",
             "location": null,
             "externalLink": "https://louietang.github.io/",
             "duration": "Mar. 2023 - Present",
