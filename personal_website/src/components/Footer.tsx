@@ -15,7 +15,7 @@ function Footer({metadata}: FooterProps) {
             <p>Career Last Updated On: {new Date(metadata.career).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' })} </p>
             <p>Portfolio Last Updated On: {new Date(metadata.portfolio).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' })} </p>
             <p>Server Last Deployed On: {new Date(metadata.server).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' })} </p>
-            <p>Latest Website Version Published On (<a href="https://github.com/LouieTang/LouieTang.github.io">GitHub Pages</a>): {new Date(metadata.website).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })} </p>
+            <p>Latest Website Version Published On (<a href="https://github.com/LouieTang/LouieTang.github.io">GitHub Pages</a>): {new Date(metadata.website).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' })} </p>
         </div>
     );
 };

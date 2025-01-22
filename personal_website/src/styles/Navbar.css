@@ -1,6 +1,6 @@
 .navbar{
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
     margin: 1rem 2rem 1rem 0;
     gap: 1.5rem;
     font-size: 1.1rem
@@ -9,4 +9,11 @@
 
 .navbar-link {
     cursor: pointer;
+}
+
+@media screen and (max-width: 767px){
+    .navbar {
+        margin: 0;
+        justify-content: center;
+    }
 }

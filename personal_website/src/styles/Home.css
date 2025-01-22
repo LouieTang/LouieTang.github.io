@@ -17,14 +17,15 @@
 }
 
 .title {
-    justify-content: end;
-    flex-grow: 1;
+    border-radius: 3rem;
+    padding: 8rem 5rem;
+    width: 100%;
     font-size: 2rem;
+    background-color: #b3c8cf;
 }
 
 .scroll-down {
     justify-content: center;
-    flex-grow: 2;
 }
 
 .scroll-down div {
